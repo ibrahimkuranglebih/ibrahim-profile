@@ -12,7 +12,7 @@ export default function HoverCard({
 }) {
   return (
     <div
-      className="w-full group relative rounded-2xl border-2 border-gray-200 bg-white p-6 transition-all duration-300 hover:shadow-md overflow-hidden flex flex-col justify-between gap-4"
+      className="w-full group relative rounded-2xl border-2 border-gray-200 bg-white p-6 transition-all duration-300 hover:shadow-md overflow-hidden flex flex-col justify-between gap-4 max-[1100px]:h-80"
     >
       {/* MAIN CONTENT SECTION */}
       <div
@@ -32,7 +32,7 @@ export default function HoverCard({
 
         {/* Description */}
         {description && (
-          <p className="mt-1 text-sm text-neutral-500">
+          <p className="text-sm text-neutral-500 mt-4">
             {description}
           </p>
         )}
@@ -47,7 +47,7 @@ export default function HoverCard({
 
       {/* VIEW SECTION - sekarang jadi bagian dari flow normal */}
       <a
-        className="flex items-center gap-2 text-sm font-medium text-neutral-900 transition-all duration-300 opacity-100 translate-y-0 lg:opacity-0 lg:translate-y-4 lg:group-hover:opacity-100 lg:group-hover:translate-y-0"
+        className="flex w-fit items-center gap-2 text-sm font-medium text-neutral-900 transition-all duration-300 opacity-100 translate-y-0 lg:opacity-0 lg:translate-y-4 lg:group-hover:opacity-100 lg:group-hover:translate-y-0"
         href={href}
       >
         View <ArrowRight size={16} />

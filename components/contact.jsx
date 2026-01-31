@@ -4,7 +4,7 @@ import { SiGmail } from "react-icons/si";
 
 const Contact = () => {
   return (
-    <div className="w-full bg-white border-2 border-gray-200 rounded-2xl flex flex-col p-6 gap-4 max-[1100px]:h-64">
+    <div className="w-full bg-white border-2 border-gray-200 rounded-2xl flex flex-col p-6 gap-4 max-[1100px]:h-80 hover:shadow-md duration-150">
         <h3 className="text-lg font-semibold text-neutral-900 p-2 border-2 border-gray-200 w-fit rounded-xl">
             Contact Me
         </h3>
@@ -14,9 +14,9 @@ const Contact = () => {
             Feel free to reach out to me via any of the platforms below.
         </p>
         <div className=" flex flex-row gap-2 justify-center items-center ">
-            <a href="" className="border-2 border-gray-200 rounded-xl px-4 py-2 h-fit w-fit hover:bg-black hover:shadow-md hover:text-white duration-300 hover:px-8 bg-gray-50 text-3xl"><FaLinkedin/></a>
-            <a href="" className="border-2 border-gray-200 rounded-full px-4 py-2 h-fit w-fit hover:bg-black hover:shadow-md hover:text-white duration-300 hover:px-8 bg-gray-50 text-3xl"><FaGithub/></a>
-            <a href="" className="border-2 border-gray-200 rounded-full px-4 py-2 h-fit w-fit hover:bg-black hover:shadow-md hover:text-white duration-300 hover:px-8 bg-gray-50 text-3xl"><SiGmail/></a>
+            <a href="https://www.linkedin.com/in/ibrahimmumtaz/" target='blank' className="border-2 border-gray-200 rounded-xl px-4 py-2 h-fit w-fit hover:bg-black hover:shadow-md hover:text-white duration-300 hover:px-8 bg-gray-50 text-3xl"><FaLinkedin/></a>
+            <a href="https://github.com/ibrahimkuranglebih" target='blank' className="border-2 border-gray-200 rounded-xl px-4 py-2 h-fit w-fit hover:bg-black hover:shadow-md hover:text-white duration-300 hover:px-8 bg-gray-50 text-3xl"><FaGithub/></a>
+            <a href="" target='blank' className="border-2 border-gray-200 rounded-xl px-4 py-2 h-fit w-fit hover:bg-black hover:shadow-md hover:text-white duration-300 hover:px-8 bg-gray-50 text-3xl"><SiGmail/></a>
         </div>
     </div>
   )

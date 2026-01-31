@@ -1,6 +1,5 @@
 "use client";
 import HoverCard from "./hover-card";
-import { FileText } from "lucide-react";
 
 export default function ExperienceCard() {
   return (

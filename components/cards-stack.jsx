@@ -29,13 +29,13 @@ function Glass({ text, rotate, className = "" }) {
     <div
       data-text={text}
       style={{ "--r": rotate }}
-      className={`${className} relative overflow-hidden flex items-center justify-center srounded-[10px] border border-gray-300 to-transparent shadow-lg backdrop-blur-md rounded-lg [transform:rotate(calc(var(--r)*1deg))]`}
+      className={`${className} mt-4 relative overflow-hidden flex items-center justify-center srounded-[10px] border border-gray-300 to-transparent shadow-lg backdrop-blur-md rounded-lg [transform:rotate(calc(var(--r)*1deg))]`}
     >
       {/* IMAGE */}
       <Image
         src="/images/ibrahim.jpg"
         alt="Ibrahim"
-        className="rounded-lg object-cover"
+        className="rounded-lg object-cover max-[800px]:w-24 max-[800px]:h-24"
         width={100}
         height={100}
       />
