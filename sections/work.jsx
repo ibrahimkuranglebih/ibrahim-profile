@@ -46,14 +46,12 @@ const Work = () => {
         Featured Works
       </h2>
 
-      {/* Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8" data-aos='fade-up' data-aos-duration='1000'>
         {projectsData.map((data, index) => (
           <div
             key={index}
             className="bg-white shadow-sm rounded-3xl p-4 flex flex-col gap-4 transition-all duration-300 hover:-translate-y-1 hover:shadow-md"
           >
-            {/* Image */}
             <div className="relative w-full h-64 rounded-2xl overflow-hidden bg-[#dfe7df]">
               <Image
                 src={data.image}
@@ -63,7 +61,6 @@ const Work = () => {
               />
             </div>
 
-            {/* Content */}
             <div className="flex flex-col gap-3 px-2">
               <span className="text-xl tracking-widest text-gray-700 font-semibold uppercase">
                 {data.title}
@@ -73,7 +70,6 @@ const Work = () => {
                 {data.description}
               </p>
 
-              {/* Skills */}
               <div className="flex flex-wrap gap-2">
                 {data.skill.map((item, i) => (
                   <span
@@ -86,7 +82,6 @@ const Work = () => {
               </div>
             </div>
 
-            {/* Footer */}
             <div className="flex justify-between items-center px-2 pt-2">
               {data.link && (
                 <a

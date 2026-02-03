@@ -18,11 +18,11 @@ const Aspiration = () => {
       ([entry]) => {
         if (entry.isIntersecting) {
           setAnimate(true);
-          observer.disconnect(); // animasi hanya sekali
+          observer.disconnect(); 
         }
       },
       {
-        threshold: 0.4, // 40% section terlihat
+        threshold: 0.4, 
       }
     );
 
@@ -39,7 +39,6 @@ const Aspiration = () => {
       className="min-h-screen py-12 w-full flex flex-col gap-20 justify-center"
     >
       
-      {/* Quote */}
       <div className="w-full bg-green-100 p-6 lg:p-10 text-lg lg:text-2xl rounded-3xl font-medium text-gray-800"  data-aos='fade-right' data-aos-duration='700'>
         &apos;&apos;I leverage{" "}
         <span className={`highlight px-2 text-white font-bold ${animate ? "animate" : ""}`}>
@@ -53,16 +52,11 @@ const Aspiration = () => {
         —I enable clients to achieve their objectives more efficiently.&apos;&apos;
       </div>
 
-      {/* Content */}
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-32 items-start">
         <h2 className="text-4xl font-bold text-gray-800"  data-aos='fade-right' data-aos-duration='1000'>
           How can I help you?
         </h2>
-
-        {/* Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 items-stretch" data-aos='fade-right' data-aos-duration='1100'>
-
-          {/* Data Analytics */}
           <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl shadow-sm hover:shadow-lg px-8 py-6 flex flex-col gap-4" >
             <div className="flex items-center gap-4 font-bold">
               <div className="p-2 rounded-full bg-gray-200 text-teal-500">
@@ -77,7 +71,6 @@ const Aspiration = () => {
             </p>
           </div>
 
-          {/* Data Engineering */}
           <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl shadow-sm hover:shadow-lg px-8 py-6 flex flex-col gap-4">
             <div className="flex items-center gap-4 font-bold">
               <div className="p-2 rounded-full bg-gray-200 text-teal-500">
@@ -92,7 +85,6 @@ const Aspiration = () => {
             </p>
           </div>
 
-          {/* Software Development */}
           <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl shadow-sm hover:shadow-lg px-8 py-6 flex flex-col gap-4">
             <div className="flex items-center gap-4 font-bold">
               <div className="p-2 rounded-full bg-gray-200 text-teal-500">
@@ -107,7 +99,6 @@ const Aspiration = () => {
             </p>
           </div>
 
-          {/* Machine Learning */}
           <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl shadow-sm hover:shadow-lg px-8 py-6 flex flex-col gap-4" >
             <div className="flex items-center gap-4 font-bold">
               <div className="p-2 rounded-full bg-gray-200 text-teal-500">
@@ -121,7 +112,6 @@ const Aspiration = () => {
               data-driven decision making.
             </p>
           </div>
-
         </div>
       </div>
     </section>

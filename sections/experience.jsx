@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import { CirclePile, HardHat, ChevronsLeftRightEllipsis, Mail } from "lucide-react";
+import { CirclePile, HardHat, ChevronsLeftRightEllipsis } from "lucide-react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -21,9 +21,7 @@ const ExperienceCard = ({ data }) => {
   }, [data.images]);
 
   return (
-    <div className="bg-white shadow-sm rounded-3xl p-5 hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col gap-4">
-      
-      {/* IMAGE SLIDER */}
+    <div className="bg-white shadow-sm rounded-3xl p-5 hover:shadow-md transition-all duration-300 hover:-translate-y-1 flex flex-col gap-4">      
       <div className="relative w-full h-48 rounded-2xl overflow-hidden bg-gray-100">
         {data.images.map((img, index) => (
           <Image

@@ -1,10 +1,4 @@
 "use client";
-import Image from "next/image";
-import TextType from "@/components/text-type";
-import ExperienceCard from "@/components/experience-card";
-import MyWorkCard from "@/components/my-work";
-import Contact from "@/components/contact";
-
 import AboutMe from "@/sections/about-me";
 import Aspiration from "@/sections/aspiration";
 import Work from "@/sections/work";

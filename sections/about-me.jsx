@@ -10,9 +10,7 @@ const AboutMe = () => {
     AOS.init();
   }, [])
   return (
-    <section className="min-h-screen w-full py-12 flex flex-col lg:flex-row gap-10 items-center justify-between bg-[#f9fafb]">
-      
-      {/* LEFT CONTENT */}
+    <section className="min-h-screen w-full py-12 flex flex-col lg:flex-row gap-10 items-center justify-between bg-[#f9fafb]">      
       <div className="flex flex-col gap-8 max-w-2xl" >
         <span className="w-fit text-sm px-4 py-1 rounded-full bg-teal-100 text-teal-600 font-medium" data-aos='fade-right' data-aos-duration='700'>
           Available for work
@@ -37,12 +35,9 @@ const AboutMe = () => {
         </a>
       </div>
 
-      {/* RIGHT CONTENT */}
       <div className="flex flex-col lg:flex-row items-center gap-10" data-aos='fade-right' duration='800'>
         
-        {/* INFO + SOCIAL */}
         <div className="flex flex-col gap-6" data-aos='fade-right' data-aos-duration='1000'>
-          {/* INFO CARD */}
           <div className="bg-white rounded-2xl shadow-sm p-6 w-80">
             <p className="font-semibold text-gray-900">
               Ibrahim Mumtaz Samadikun
@@ -51,11 +46,10 @@ const AboutMe = () => {
               Depok, West Java, Indonesia
             </p>
             <p className="text-sm text-gray-500 mt-2">
-              6th semester Informatics Engineering Student <span className="font-bold">Politeknik Negeri Jakarta</span>
+              6th semester Informatics Engineering Student of <span className="font-bold">Politeknik Negeri Jakarta</span>
             </p>
           </div>
 
-          {/* SOCIAL ICONS */}
           <div className="flex gap-4">
             <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-black hover:text-white duration-300" href="https://www.linkedin.com/in/ibrahimmumtaz/" target="_blank">
               <FaLinkedin size={26} />
@@ -69,7 +63,6 @@ const AboutMe = () => {
           </div>
         </div>
 
-        {/* PROFILE IMAGE */}
         <div className="relative w-[280px] h-[280px] rounded-3xl overflow-hidden shadow-md" data-aos='fade-right' data-aos-duration='1100'>
           <Image
             src="/images/ibrahim.jpg"
