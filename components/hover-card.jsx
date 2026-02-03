@@ -1,6 +1,9 @@
 // components/HoverCard.jsx
 "use client";
 import { ArrowRight } from "lucide-react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 export default function HoverCard({
   title,
@@ -10,8 +13,13 @@ export default function HoverCard({
   className = "",
   href = "",
 }) {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
     <div
+      data-aos='fade-up' data-aos-duration='700'
       className="w-full group relative rounded-2xl border-2 border-gray-200 bg-white p-6 transition-all duration-300 hover:shadow-md overflow-hidden flex flex-col justify-between gap-4 max-[1100px]:h-80"
     >
       {/* MAIN CONTENT SECTION */}

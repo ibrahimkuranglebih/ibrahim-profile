@@ -26,21 +26,14 @@ const Work = () => {
       link : "https://github.com/ibrahimkuranglebih/Football-Data-Pipeline-12-Leagues.git"
     },
     {
-      title : "Data Warehouse project with Data with Baraa",
-      image : "/images/Football Data Pipeline Architecture.jpg",
+      title : "E-Commerce Analysis Dashboard",
+      image : "/images/e-commerce(1).png",
       descriptions : "This is descriptions",
-      skill : ["Data Modelling", "Microsoft Server SQL"],
+      skill : ["Streamlit", "Python", "Excel", "Pandas", "Numpy"],
       link : "https://github.com/ibrahimkuranglebih/Football-Data-Pipeline-12-Leagues.git"
     },
     {
-      title : "Live Dashboard Progressions All Premier League Team",
-      image : "/images/Football Data Pipeline Architecture.jpg",
-      descriptions : "This is descriptions",
-      skill : ["Power BI", "PostgreSQL"],
-      link : "https://github.com/ibrahimkuranglebih/Football-Data-Pipeline-12-Leagues.git"
-    },
-    {
-      title : "Data Warehouse project with Data with Baraa",
+      title : "BSW Car Detection",
       image : "/images/Football Data Pipeline Architecture.jpg",
       descriptions : "This is descriptions",
       skill : ["Data Modelling", "Microsoft Server SQL"],
@@ -53,7 +46,7 @@ const Work = () => {
       <div className="relative w-full h-24 flex items-center">
         {/* Background silhouette */}
         <h1 data-aos="fade-right" data-aos-duration="1200" className="absolute text-5xl md:text-7xl font-extrabold tracking-widest text-gray-300 opacity-40 select-none pointer-events-none">
-          MY PROJECTS
+          FEATURED PROJECTS
         </h1>
 
         {/* Foreground */}
@@ -69,16 +62,16 @@ const Work = () => {
           </button>
 
           <h2 className="text-xl md:text-4xl font-bold text-black">
-            My Projects
+            Featured Projects
           </h2>
         </div>
       </div>
 
       {/**/}
-      <div className='flex justify-center'>
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 justify-center'>
+      <div className='flex justify-center mt-14'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 lg:gap-16 justify-center'>
           {projectsData.map((data, index) => (
-            <div key={index} className='flex flex-col gap-3 shadow-lg border-2 border-gray-200 w-fit p-6 rounded-xl'>
+            <div key={index} className='flex flex-col gap-3 shadow-lg border-2 border-gray-200 w-100 p-6 rounded-xl'>
               <Image src={data.image} alt={data.title} width={480} height={270} className='object-cover rounded-lg border-2 border-gray-300'/>
               <p className='text-xl font-bold'>{data.title}</p>
               <p className='text-md text-gray-600'>{data.descriptions}</p>

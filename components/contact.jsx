@@ -1,10 +1,18 @@
 import React from 'react'
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
-    <div className="w-full bg-white border-2 border-gray-200 rounded-2xl flex flex-col p-6 gap-4 max-[1100px]:h-80 hover:shadow-md duration-150">
+    <div 
+    data-aos='fade-up' data-aos-duration='700'
+    className="w-full bg-white border-2 border-gray-200 rounded-2xl flex flex-col p-6 gap-4 max-[1100px]:h-80 hover:shadow-md duration-150">
         <h3 className="text-lg font-semibold text-neutral-900 p-2 border-2 border-gray-200 w-fit rounded-xl">
             Contact Me
         </h3>
