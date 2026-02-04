@@ -57,7 +57,7 @@ const Aspiration = () => {
           How can I help you?
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 items-stretch" data-aos='fade-right' data-aos-duration='1100'>
-          <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl shadow-sm hover:shadow-lg px-8 py-6 flex flex-col gap-4" >
+          <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl hover:shadow-lg px-8 py-6 flex flex-col gap-4" >
             <div className="flex items-center gap-4 font-bold">
               <div className="p-2 rounded-full bg-gray-200 text-teal-500">
                 <IoAnalytics size={30} />
@@ -71,7 +71,7 @@ const Aspiration = () => {
             </p>
           </div>
 
-          <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl shadow-sm hover:shadow-lg px-8 py-6 flex flex-col gap-4">
+          <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl hover:shadow-lg px-8 py-6 flex flex-col gap-4">
             <div className="flex items-center gap-4 font-bold">
               <div className="p-2 rounded-full bg-gray-200 text-teal-500">
                 <BsDatabaseFillGear size={30} />
@@ -85,7 +85,7 @@ const Aspiration = () => {
             </p>
           </div>
 
-          <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl shadow-sm hover:shadow-lg px-8 py-6 flex flex-col gap-4">
+          <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl hover:shadow-lg px-8 py-6 flex flex-col gap-4">
             <div className="flex items-center gap-4 font-bold">
               <div className="p-2 rounded-full bg-gray-200 text-teal-500">
                 <MdOutlineWebAsset size={30} />
@@ -99,7 +99,7 @@ const Aspiration = () => {
             </p>
           </div>
 
-          <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl shadow-sm hover:shadow-lg px-8 py-6 flex flex-col gap-4" >
+          <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl hover:shadow-lg px-8 py-6 flex flex-col gap-4" >
             <div className="flex items-center gap-4 font-bold">
               <div className="p-2 rounded-full bg-gray-200 text-teal-500">
                 <LuBrainCircuit size={30} />

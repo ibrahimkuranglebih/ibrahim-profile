@@ -10,7 +10,7 @@ const AboutMe = () => {
     AOS.init();
   }, [])
   return (
-    <section className="min-h-screen w-full py-12 flex flex-col lg:flex-row gap-10 items-center justify-between bg-[#f9fafb]">      
+    <section className="min-h-screen w-full py-12 flex flex-col lg:flex-row gap-10 items-center justify-between ">      
       <div className="flex flex-col gap-8 max-w-2xl" >
         <span className="w-fit text-sm px-4 py-1 rounded-full bg-teal-100 text-teal-600 font-medium" data-aos='fade-right' data-aos-duration='700'>
           Available for work
@@ -26,13 +26,6 @@ const AboutMe = () => {
           data analytics and software development.
         </p>
 
-        <a
-          data-aos='fade-right' data-aos-duration='1000'
-          href="#"
-          className="w-fit px-6 py-3 rounded-full bg-black text-white font-medium hover:opacity-90 transition"
-        >
-          Download My CV
-        </a>
       </div>
 
       <div className="flex flex-col lg:flex-row items-center gap-10" data-aos='fade-right' duration='800'>
@@ -51,13 +44,13 @@ const AboutMe = () => {
           </div>
 
           <div className="flex gap-4">
-            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-black hover:text-white duration-300" href="https://www.linkedin.com/in/ibrahimmumtaz/" target="_blank">
+            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-teal-400 hover:text-white duration-300" href="https://www.linkedin.com/in/ibrahimmumtaz/" target="_blank">
               <FaLinkedin size={26} />
             </a>
-            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-black hover:text-white duration-300" href="https://github.com/ibrahimkuranglebih" target="_blank">
+            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-teal-400 hover:text-white duration-300" href="https://github.com/ibrahimkuranglebih" target="_blank">
               <FaGithub size={26} />
             </a>
-            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-black hover:text-white duration-300" href="https://wa.me/6282111303192" target="_blank">
+            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-teal-400 hover:text-white duration-300" href="https://wa.me/6282111303192" target="_blank">
               <FaWhatsapp size={26} />
             </a>
           </div>

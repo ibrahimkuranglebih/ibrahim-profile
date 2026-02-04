@@ -16,7 +16,7 @@ const Work = () => {
       image: "/images/Football Data Pipeline Architecture.jpg",
       description:
         "Automated ELT data pipeline leveraging real-time football data across matches, players, and competitions.",
-      skill: ["Docker", "Apache Airflow", "DBT", "PostgreSQL", "Python"],
+      skill: ["Docker", "Apache Airflow", "DBT", "PostgreSQL", "Python","Linux"],
       year: "2026",
       link: "https://github.com/ibrahimkuranglebih/Football-Data-Pipeline-12-Leagues.git",
     },

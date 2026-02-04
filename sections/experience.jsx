@@ -73,6 +73,7 @@ const ContactCard = () => (
     <a
       href="https://wa.me/6282111303192"
       className="mt-6 w-fit px-5 py-2 rounded-full bg-black text-white hover:px-8 font-semibold duration-300"
+      target="_blank"
     >
       Contact Me
     </a>
@@ -134,8 +135,8 @@ const Experience = () => {
         period: "October 2025 - Recent",
         images : ["/images/yiim.png","/images/yiim(2).png"],
         points: [
-            "Design and develop website layouts using Wordpress",
-            "Import and redesign data structure of contents using XML"
+            "Design and develop website layouts using Wordpress. Import and redesign data structure of contents using XML",
+            ""
         ],
         tags: ["Avada", "XML", "Wordpress"]
         }
