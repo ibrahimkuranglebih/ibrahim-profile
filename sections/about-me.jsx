@@ -10,7 +10,7 @@ const AboutMe = () => {
     AOS.init();
   }, [])
   return (
-    <section className="min-h-screen w-full py-12 flex flex-col lg:flex-row gap-10 items-center justify-between ">      
+    <section className="min-h-screen w-full py-12 flex flex-col lg:flex-row gap-10 items-center justify-between px-12 lg:px-28" id="profile">      
       <div className="flex flex-col gap-8 max-w-2xl" >
         <span className="w-fit text-sm px-4 py-1 rounded-full bg-teal-100 text-teal-600 font-medium" data-aos='fade-right' data-aos-duration='700'>
           Available for work
@@ -23,13 +23,12 @@ const AboutMe = () => {
 
         <p className="text-gray-600 text-lg max-w-md" data-aos='fade-right' data-aos-duration='900'>
           Undergraduate student with ambition to build business solutions using
-          data analytics and software development.
+          data analytics, data engineering, machine learning and software development.
         </p>
 
       </div>
 
       <div className="flex flex-col lg:flex-row items-center gap-10" data-aos='fade-right' duration='800'>
-        
         <div className="flex flex-col gap-6" data-aos='fade-right' data-aos-duration='1000'>
           <div className="bg-white rounded-2xl shadow-sm p-6 w-80">
             <p className="font-semibold text-gray-900">
@@ -44,13 +43,13 @@ const AboutMe = () => {
           </div>
 
           <div className="flex gap-4">
-            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-teal-400 hover:text-white duration-300" href="https://www.linkedin.com/in/ibrahimmumtaz/" target="_blank">
+            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-gray-400 hover:text-white duration-300" href="https://www.linkedin.com/in/ibrahimmumtaz/" target="_blank">
               <FaLinkedin size={26} />
             </a>
-            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-teal-400 hover:text-white duration-300" href="https://github.com/ibrahimkuranglebih" target="_blank">
+            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-gray-400 hover:text-white duration-300" href="https://github.com/ibrahimkuranglebih" target="_blank">
               <FaGithub size={26} />
             </a>
-            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-teal-400 hover:text-white duration-300" href="https://wa.me/6282111303192" target="_blank">
+            <a className="bg-white p-3 w-fit hover:px-8 rounded-full shadow-sm hover:bg-gray-400 hover:text-white duration-300" href="https://wa.me/6282111303192" target="_blank">
               <FaWhatsapp size={26} />
             </a>
           </div>

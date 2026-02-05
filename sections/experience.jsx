@@ -66,7 +66,7 @@ const ExperienceCard = ({ data }) => {
 };
 
 const ContactCard = () => (
-  <div className="bg-white rounded-3xl px-12 py-10 flex flex-col shadow-sm">
+  <div className="bg-white rounded-3xl px-12 py-10 flex flex-col justify-center shadow-sm h-full">
     <p className="text-3xl mt-4">
         Excited to know more about my experience?
     </p>
@@ -145,16 +145,15 @@ const Experience = () => {
     AOS.init();
   }, [])
   return (
-    <section className="w-full flex flex-col min-h-screen py-20 gap-16 mt-10">
-      <h1 className="text-3xl font-bold" data-aos='fade-right' data-aos-duration='1000'>Discover All My Professional Experience</h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8" data-aos='fade-left' data-aos-duration='1000'>
-        {experienceData.map((data, index) => (
-          <ExperienceCard key={index} data={data} />
-        ))}
-      </div>
-      <div data-aos='fade-up' data-aos-duration='1000'>
-        <ContactCard />
-      </div>
+    <section className="w-full flex lg:flex-row flex-col min-h-screen py-20 gap-6 mt-10 px-12 lg:px-28 scroll-mt-14" id="experience">
+        <div data-aos='fade-right' data-aos-duration='1000'>
+          <ContactCard/>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6" data-aos='fade-left' data-aos-duration='1000'>
+          {experienceData.map((data, index) => (
+            <ExperienceCard key={index} data={data} />
+          ))}
+        </div>
     </section>
   );
 };

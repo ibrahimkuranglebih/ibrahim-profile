@@ -41,7 +41,7 @@ const Work = () => {
   ];
 
   return (
-    <section className="min-h-screen w-full flex flex-col gap-20 mt-20" >
+    <section className="min-h-screen w-full flex flex-col gap-20 mt-20 px-12 lg:px-28 scroll-mt-32" id="work" >
       <h2 className="text-4xl font-bold text-gray-800" data-aos='fade-up' data-aos-duration='800'>
         Featured Works
       </h2>
@@ -88,7 +88,7 @@ const Work = () => {
                   href={data.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-lg font-medium text-teal-600 bg-gray-200 hover:bg-teal-400 hover:text-white duration-300 p-3 rounded-full hover:underline"
+                  className="text-lg font-medium text-gray-600 bg-gray-200 hover:bg-gray-400 hover:text-white duration-300 p-3 rounded-full hover:underline"
                 >
                   <FaArrowUpRightFromSquare/>
                 </a>

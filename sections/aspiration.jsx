@@ -36,30 +36,31 @@ const Aspiration = () => {
   return (
     <section
       ref={sectionRef}
-      className="min-h-screen py-12 w-full flex flex-col gap-20 justify-center"
+      className="min-h-screen py-6 w-full flex flex-col gap-20 justify-center px-12 lg:px-28 scroll-mt-32"
+      id="aspiration"
     >
       
-      <div className="w-full bg-green-100 p-6 lg:p-10 text-lg lg:text-2xl rounded-3xl font-medium text-gray-800"  data-aos='fade-right' data-aos-duration='700'>
+      <div className="w-full bg-white p-6 lg:p-10 text-lg lg:text-2xl rounded-3xl font-medium text-gray-800"  data-aos='fade-right' data-aos-duration='700'>
         &apos;&apos;I leverage{" "}
-        <span className={`highlight px-2 text-white font-bold ${animate ? "animate" : ""}`}>
+        <span className={`highlight px-2 py-1 text-black font-bold ${animate ? "animate" : ""}`}>
           data
         </span>
         as a strategic asset to develop innovations tailored to client needs.
         Through the delivery of tangible, data-driven solutions—including{" "}
-        <span className={`highlight px-2 text-white font-bold ${animate ? "animate" : ""}`}>
+        <span className={`highlight px-2 py-1 text-black font-bold ${animate ? "animate" : ""}`}>
           data pipelines, analytical dashboards, and software products
         </span>
         —I enable clients to achieve their objectives more efficiently.&apos;&apos;
       </div>
 
       <div className="flex flex-col lg:flex-row gap-10 lg:gap-32 items-start">
-        <h2 className="text-4xl font-bold text-gray-800"  data-aos='fade-right' data-aos-duration='1000'>
+        <h2 className="text-4xl font-bold text-gray-600"  data-aos='fade-right' data-aos-duration='1000'>
           How can I help you?
         </h2>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 items-stretch" data-aos='fade-right' data-aos-duration='1100'>
           <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl hover:shadow-lg px-8 py-6 flex flex-col gap-4" >
             <div className="flex items-center gap-4 font-bold">
-              <div className="p-2 rounded-full bg-gray-200 text-teal-500">
+              <div className="p-2 rounded-full bg-gray-200 text-gray-600">
                 <IoAnalytics size={30} />
               </div>
               <span className="text-gray-700 text-lg">Data Analytics</span>
@@ -73,7 +74,7 @@ const Aspiration = () => {
 
           <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl hover:shadow-lg px-8 py-6 flex flex-col gap-4">
             <div className="flex items-center gap-4 font-bold">
-              <div className="p-2 rounded-full bg-gray-200 text-teal-500">
+              <div className="p-2 rounded-full bg-gray-200 text-gray-500">
                 <BsDatabaseFillGear size={30} />
               </div>
               <span className="text-gray-700 text-lg">Data Engineering</span>
@@ -87,7 +88,7 @@ const Aspiration = () => {
 
           <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl hover:shadow-lg px-8 py-6 flex flex-col gap-4">
             <div className="flex items-center gap-4 font-bold">
-              <div className="p-2 rounded-full bg-gray-200 text-teal-500">
+              <div className="p-2 rounded-full bg-gray-200 text-gray-500">
                 <MdOutlineWebAsset size={30} />
               </div>
               <span className="text-gray-700 text-lg">Software Development</span>
@@ -101,7 +102,7 @@ const Aspiration = () => {
 
           <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl hover:shadow-lg px-8 py-6 flex flex-col gap-4" >
             <div className="flex items-center gap-4 font-bold">
-              <div className="p-2 rounded-full bg-gray-200 text-teal-500">
+              <div className="p-2 rounded-full bg-gray-200 text-gray-500">
                 <LuBrainCircuit size={30} />
               </div>
               <span className="text-gray-700 text-lg">Machine Learning</span>
