@@ -83,6 +83,19 @@ const ContactCard = () => (
 const Experience = () => {
     const experienceData = [
         {
+        title: "Yayasan Inspirasi Indonesia Membangun",
+        type: "Part-time",
+        role : "Web Designer Intern",
+        icon : ChevronsLeftRightEllipsis,
+        period: "October 2025 - Recent",
+        images : ["/images/yiim.png","/images/yiim(2).png"],
+        points: [
+            "Design and develop website layouts using Wordpress. Import and redesign data structure of contents using XML",
+            ""
+        ],
+        tags: ["Avada", "XML", "Wordpress"]
+        },
+        {
         title: "Expectik 2024",
         type: "Part Time",
         role : "Mentor of Elysium Team",
@@ -126,19 +139,6 @@ const Experience = () => {
             "Ensure all events held successfully according to plan"
         ],
         tags: ["Communication", "Leadership", "Event Planning"]
-        },
-        {
-        title: "Yayasan Inspirasi Indonesia Membangun",
-        type: "Part-time",
-        role : "Web Designer Intern",
-        icon : ChevronsLeftRightEllipsis,
-        period: "October 2025 - Recent",
-        images : ["/images/yiim.png","/images/yiim(2).png"],
-        points: [
-            "Design and develop website layouts using Wordpress. Import and redesign data structure of contents using XML",
-            ""
-        ],
-        tags: ["Avada", "XML", "Wordpress"]
         }
     ];
   useEffect(() => {
