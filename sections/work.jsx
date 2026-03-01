@@ -21,6 +21,15 @@ const Work = () => {
       link: "https://github.com/ibrahimkuranglebih/Football-Data-Pipeline-12-Leagues.git",
     },
     {
+      title: "ETL Earthquake Data Pipeline",
+      image: "/images/Earthquake_Data_Pipeline.png",
+      description:
+        "Automated ETL data pipeline to deliver real-time earthquake including all of informations about earthquake around the world.",
+      skill: ["Docker", "Apache Airflow", "PostgreSQL", "Python","Linux"],
+      year: "2026",
+      link: "https://github.com/ibrahimkuranglebih/earthquake-data-pipeline",
+    },
+    {
       title: "E-Commerce Analysis Dashboard",
       image: "/images/e-commerce(1).png",
       description:
