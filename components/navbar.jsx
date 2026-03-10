@@ -23,7 +23,6 @@ const Navbar = () => {
 
   return (
     <>
-      {/* ===== DESKTOP NAVBAR ===== */}
       <div
         className="hidden sm:flex w-full fixed z-30 justify-center mt-10"
         data-aos="fade-down"
@@ -43,7 +42,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* ===== MOBILE HAMBURGER BUTTON ===== */}
       <button
         onClick={() => setIsOpen(true)}
         className="sm:hidden fixed top-6 left-6 z-40 w-12 h-12 bg-white shadow-lg rounded-full flex items-center justify-center"
@@ -51,7 +49,6 @@ const Navbar = () => {
         <HiMenuAlt2 size={24} />
       </button>
 
-      {/* ===== OVERLAY ===== */}
       <div
         className={`fixed inset-0 bg-black/30 z-30 transition-opacity duration-300 ${
           isOpen ? "opacity-100 visible" : "opacity-0 invisible"
@@ -59,7 +56,6 @@ const Navbar = () => {
         onClick={() => setIsOpen(false)}
       />
 
-      {/* ===== MOBILE SIDEBAR ===== */}
       <div
         className={`fixed top-0 left-0 h-screen w-64 bg-white z-40 transform transition-transform duration-300 ease-out
         ${isOpen ? "translate-x-0" : "-translate-x-full"}`}

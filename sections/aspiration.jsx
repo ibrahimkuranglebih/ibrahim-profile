@@ -53,11 +53,11 @@ const Aspiration = () => {
         —I enable clients to achieve their objectives more efficiently.&apos;&apos;
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-10 lg:gap-32 items-start">
+      <div className="flex max-[1300px]:flex-col flex-row gap-10 max-[1300px]:gap-20 items-start">
         <h2 className="text-4xl font-bold text-gray-600"  data-aos='fade-right' data-aos-duration='1000'>
           How can I help you?
         </h2>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 flex-1 items-stretch" data-aos='fade-right' data-aos-duration='1100'>
+        <div className="grid max-[1300px]:grid-cols-1 grid-cols-2 gap-6 flex-1 items-stretch" data-aos='fade-right' data-aos-duration='1100'>
           <div className="h-full bg-white hover:-translate-y-1 transition-all duration-500 ease-out rounded-xl hover:shadow-lg px-8 py-6 flex flex-col gap-4" >
             <div className="flex items-center gap-4 font-bold">
               <div className="p-2 rounded-full bg-gray-200 text-gray-600">
